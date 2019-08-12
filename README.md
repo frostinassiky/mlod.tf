@@ -1,8 +1,9 @@
 # mlod.tf
 Tensorflow code for [Missing Labels in Object Detection](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Missing_Labels_in_Object_Detection_CVPRW_2019_paper.pdf)
 
-[Poster](http://frostsally.com/xu/asset/Frost2019MissingLabelPoster.pdf)
-[ZhiHu](https://zhuanlan.zhihu.com/p/72859378)
+ - [Poster](http://frostsally.com/xu/asset/Frost2019MissingLabelPoster.pdf)
+
+ - [ZhiHu](https://zhuanlan.zhihu.com/p/72859378)
 
 **This repository is currently not complete. Please open an issue if you want any script related to the paper.**
 
