@@ -15,7 +15,7 @@ In `./lib/datasets/pascal_voc.py`, pseudo boxes are loaded through the function 
 ``` 
 cd data/pseudo
 wget https://reserach-project.s3.eu-west-2.amazonaws.com/mlod/W2F.mat 
-mv W2F.mat voc_2007_trainval_gt.mat
+cp W2F.mat voc_2007_trainval_gt.mat
 ```
 
 After that, please refer the batch file `test_train.batch` to see the way to update the pseudo labels.
