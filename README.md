@@ -11,7 +11,7 @@ This repository is based on the Tensorflow implementation of faster RCNN detecti
 
 ### update: download the W2F result
 
-In `./lib/datasets/pascal_voc.py`, pseudo boxes are loaded through the function "_load_annotation", and there should be a file with path: `./data/pseudo/`. Please use the following command to dowload the peuso label from W2F.
+In `./lib/datasets/pascal_voc.py`, pseudo boxes are loaded through the function "_load_annotation", and there should be a file with path: `./data/pseudo/`. Please use the following command to dowload the peuso label.
 ``` 
 cd data/pseudo
 wget https://reserach-project.s3.eu-west-2.amazonaws.com/mlod/W2F.mat 
