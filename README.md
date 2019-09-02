@@ -9,6 +9,16 @@ Tensorflow code for [Missing Labels in Object Detection](http://openaccess.thecv
 
 This repository is based on the Tensorflow implementation of faster RCNN detection framework by Xinlei Chen (xinleic@cs.cmu.edu). To set up the environment, please follow the instruction in this [repo](https://github.com/endernewton/tf-faster-rcnn).
 
+### update: download the W2F result
+
+In `./lib/datasets/pascal_voc.py`, pseudo boxes are loaded through the function "_load_annotation", and there should be a file with path: `./data/pseudo/`. Please use the following command to dowload the peuso label from W2F.
+``` 
+cd data/pseudo
+wget https://reserach-project.s3.eu-west-2.amazonaws.com/mlod/W2F.mat 
+mv W2F.mat voc_2007_trainval_gt.mat
+```
+
+After that,
 ### Installation
 1. Clone the repository
   ```Shell
