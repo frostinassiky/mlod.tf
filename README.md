@@ -18,7 +18,9 @@ wget https://reserach-project.s3.eu-west-2.amazonaws.com/mlod/W2F.mat
 mv W2F.mat voc_2007_trainval_gt.mat
 ```
 
-After that,
+After that, please refer the batch file `test_train.batch` to see the way to update the pseudo labels.
+
+
 ### Installation
 1. Clone the repository
   ```Shell
